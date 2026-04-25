@@ -13,8 +13,9 @@ But our indoor garden grows and I could still make use of this one.
 
 ### Requirements 
 
-* the lamp itself is powered from dedicated powered line with it's own schedule
+* the lamp itself is powered from dedicated power line with its own schedule
 * the wireless controller is powered from the general line so it turns on when power is supplied
+* when controller is turned on, it continuously tries to turn lamp on 
 
 ### Components
 * Arduino Uno
