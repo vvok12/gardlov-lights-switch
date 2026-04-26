@@ -24,6 +24,7 @@ void loop() {
   if (currentMillis - prevSecMillis >= sec) {
     prevSecMillis = currentMillis;
     secondsPassed+=1;
+    // signal the program is running
     digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
   } 
 

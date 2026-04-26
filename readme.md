@@ -25,3 +25,9 @@ But our indoor garden grows, and I could still make use of this one.
 * Gardlov 19388
 
 ### Wiring
+
+1. close on btn switch with copper wire 
+[see](./docs/imgs/close-on-btn-switch.jpg)
+2. adjust LM2596 output to 3V when 5V is supplied
+3. replace CR2025 with wires to LM2596 out pins [see](./docs/imgs/replace-CR2025.jpg)
+4. wire LM2596 to Arduino GND pin & Digital pin 12
